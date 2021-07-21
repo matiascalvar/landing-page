@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="style.css">
     <title>Landing Page</title>
 </head>
-<body class="bg-success"> 
+<body class="">
+    <a id="firstrow"></a>
     <div id="header">
     <nav id="nav-bar" class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <div class="container">
@@ -19,16 +20,16 @@
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
+                <a class="nav-link" href="#firstrow">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
+                <a class="nav-link" href="#secondrow">Features</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
+                <a class="nav-link" href="#thirdrow">Pricing</a>
               </li>
             </ul>
             </form>
@@ -39,87 +40,103 @@
 
     <div class="container mt-5 pt-5">
         <h1 class="text-center">El Mate Definitivo</h1>
-        <h2 class="text-center">El mate mas mate de todos los mates. El mate que nunca te abandona</h2>
+        <h2 class="text-center">El mate mas mate de todos los mates, el que nunca te abandona</h2>
         <h2 class="text-center mb-5">Proba este mateico carabajal y disfruta de lo mejor</h2>
-
-        <div class="row justify-content-evenly p-3">
-            <div class="col-12 col-lg-4 d-flex justify-content-center">
-                <img class="mx-auto" src="img/71Ir1E1b-EL._AC_SX425_.jpg" alt="mate">
+        <!-- video -->
+        <div class="row m-2 p-2">
+            <div class="col d-flex justify-content-center"><iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/vwrmTSMmcaI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
-            <div class="col-12 col-lg-4 text-center align-self-center p-5">
+        </div>
+        <hr>
+        <!-- about -->
+        <div class="row justify-content-evenly p-3">
+            <div class="col-12 col-lg-4 d-flex justify-content-center order-2 order-lg-1">
+                <img class="mx-auto img-fluid" src="img/luli-gamburd-Aps0wpkbarM-unsplash.jpg" alt="mate">
+            </div>
+            <div class="col-12 col-lg-4 text-center align-self-center p-5 order-1 order-lg-2">
                 <h4 class="m-3">About</h4>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat omnis illum corporis quidem consequatur aliquid vitae similique inventore dolor. Similique commodi, distinctio autem quae accusantium nam non voluptas doloremque omnis.
             </div>
-
         </div>
-
+        <hr>
+        <!-- features -->
+        <a id="secondrow"></a>
         <div class="row justify-content-evenly p-3">
             <div class="col-12 col-lg-4 text-center align-self-center p-5">
                 <h4 class="m-3">Features</h4>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat omnis illum corporis quidem consequatur aliquid vitae similique inventore dolor. Similique commodi, distinctio autem quae accusantium nam non voluptas doloremque omnis.
             </div>
             <div class="col-12 col-lg-4 d-flex justify-content-center">
-                <img class="mx-auto" src="img/71Ir1E1b-EL._AC_SX425_.jpg" alt="mate">
+                <img class="mx-auto img-fluid"  src="img//fedor-V8DRhQ8YoZs-unsplash.jpg" alt="mate">
             </div>
         </div>
-
+        <hr>
+        <!-- cards -->
+        <a id="thirdrow"></a>
         <h4 class="text-center m-3">Pricing</h4>
         <div class="row justify-content-evenly p-3 text-center">
             <div class="col-12 col-lg-3">
                 <div class="card my-3">
                     <div class="card-body">
-                      <h5 class="card-title">Special title treatment</h5>
-                      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                      <h5 class="card-title">Basic Pack</h5>
+                      <p class="card-text">
+                            <ul>
+                                <li>Neque porro quisquam est qui dolorem ipsum</li>
+                                <li>Neque porro quisquam est qui dolorem ipsum</li>
+                                <li>Neque porro quisquam est qui dolorem ipsum</li>
+                            </ul>
+                        </p>
+
+                      <a href="#" class="btn btn-primary">Comprar</a>
                     </div>
                   </div>
             </div>
             <div class="col-12 col-lg-3">
                 <div class="card my-3">
                     <div class="card-body">
-                      <h5 class="card-title">Special title treatment</h5>
-                      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                      <h5 class="card-title">Medium Pack</h5>
+                      <p class="card-text">
+                        <ul>
+                            <li>Neque porro quisquam est qui dolorem ipsum</li>
+                            <li>Neque porro quisquam est qui dolorem ipsum</li>
+                            <li>Neque porro quisquam est qui dolorem ipsum</li>
+                        </ul>
+                      </p>
+                      <a href="#" class="btn btn-primary">Comprar</a>
                     </div>
                   </div>
             </div>
             <div class="col-12 col-lg-3">
                 <div class="card my-3">
-                    <div class="card-body">
-                      <h5 class="card-title">Special title treatment</h5>
-                      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <div class="card-body border border-success">
+                      <h5 class="card-title">Pampeano Pack</h5>
+                      <p class="card-text">
+                        <ul>
+                            <li>Neque porro quisquam est qui dolorem ipsum</li>
+                            <li>Neque porro quisquam est qui dolorem ipsum</li>
+                            <li>Neque porro quisquam est qui dolorem ipsum</li>
+                        </ul>
+                      </p>
+                      <a href="#" class="btn btn-success">Comprar</a>
                     </div>
                   </div>
             </div>
         </div>
+        <hr>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        
+        <!-- Aca va una form con email -->
+        <div class="row justify-content-center">
+            <form id="form" class="col-6 m-3" action="https://www.freecodecamp.com/email-submit">
+                <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Ingresa tu dirección de email</label>
+                <input name="email" id="email" placeholder="Email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <input id="submit" autocomplete="email" type="submit" class="btn btn-primary" value="Contactanos!">
+            </form>
+        </div>  
     </div>  
-
-
+    <div id="footer" class="container text-center text-dark pb-2">&copy; Copyright 2021 Developed by Matias Calvar</div>
 
 
 
